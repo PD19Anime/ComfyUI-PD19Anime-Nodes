@@ -24,9 +24,11 @@ Clone this repo
 Advanced Prompt & Image Loader (Multiple) provides the following features:
 Input Parameters
 
-path: The absolute or relative path to the folder containing your images.
+path: 
+- The absolute or relative path to the folder containing your images.
 
-pattern: Filename filter (e.g., *.png, prefix_*.jpg). * matches all files.
+pattern: 
+- Filename filter (e.g., *.png, prefix_*.jpg). * matches all files.
 
 mode:
 - single_image: Loads the image at the specified index.
