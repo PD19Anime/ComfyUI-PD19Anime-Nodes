@@ -13,8 +13,10 @@ This node combines the functionality of the Load Image Batch node from the was-n
 ## Install
 
 cd to the custom_node folder
+
 Clone this repo
-```git clone --recursive https://github.com/PD19Anime/ComfyUI-PD19Anime-Nodes.git```
+
+    git clone --recursive https://github.com/PD19Anime/ComfyUI-PD19Anime-Nodes.git
 
 
 ## Features
@@ -23,46 +25,46 @@ Advanced Prompt & Image Loader (Multiple) provides the following features:
 Input Parameters
 
 path:
-    The absolute or relative path to the folder containing your images.
+    - The absolute or relative path to the folder containing your images.
 
 pattern:
-    Filename filter (e.g., *.png, prefix_*.jpg). * matches all files.
+    - Filename filter (e.g., *.png, prefix_*.jpg). * matches all files.
 
 mode:
-single_image: Loads the image at the specified index.
+- single_image: Loads the image at the specified index.
 
-incremental_image: Loads the next image in the folder on each run.
+- incremental_image: Loads the next image in the folder on each run.
 
-random: Loads a random image based on the provided seed.
+- random: Loads a random image based on the provided seed.
 
 index / seed:
-Numeric parameter for the corresponding mode.
+- Numeric parameter for the corresponding mode.
 
 swap_prompts:
-A toggle switch. If your positive and negative prompts are swapped, enable this to correct the output.
+- A toggle switch. If your positive and negative prompts are swapped, enable this to correct the output.
 
 **Output Parameters**
 
 positive_prompt:
-    The positive prompt read from the image metadata.
+    - The positive prompt read from the image metadata.
 
 negative_prompt:
-    The negative prompt read from the image metadata.
+    - The negative prompt read from the image metadata.
 
 image:
-    The image data itself.
+    - The image data itself.
 
 
 
 ## How to Use
 
-    1.Set the path to the image folder.
+1.Set the path to the image folder.
 
-    2.Check the number of images in the folder and adjust the Batch Count value in ComfyUI to match the number of images.
+2.Check the number of images in the folder and adjust the Batch Count value in ComfyUI to match the number of images.
 
-    3.Configure the loading mode and other parameters as needed.
+3.Configure the loading mode and other parameters as needed.
 
-    4.Start the workflow.
+4.Start the workflow.
 
 ![CleanShot 2025-07-07 at 23 42 04@2x](https://github.com/user-attachments/assets/10211f62-4cb3-4673-bade-f9da96789d16)
 
