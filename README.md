@@ -1,5 +1,5 @@
 # ComfyUI-PD19Anime-Nodes
-AA powerful suite of nodes for ComfyUI to dynamically load prompts and images. This pack is especially focused on   batch processing from a directory and includes two main nodes: Advanced Prompt & Image Loader (Multiple) and   Advanced Prompt & Image Loader (single).
+A powerful suite of nodes for ComfyUI to dynamically load prompts and images. This pack is especially focused on   batch processing from a directory and includes two main nodes: Advanced Prompt & Image Loader (Multiple) and   Advanced Prompt & Image Loader (single).
 
 
 This node is specifically designed for batch high-resolution image upscaling, saving you a significant amount of time and effort. The original purpose of creating this node was to eliminate the need to manually copy and paste the prompt for each image when processing a large number of files. With this node, you can set up batch operations and free your hands for other tasks, greatly improving your workflow efficiency.
