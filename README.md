@@ -14,7 +14,7 @@ This node combines the functionality of the Load Image Batch node from the was-n
 
 cd to the custom_node folder
 Clone this repo
-``git clone --recursive https://github.com/PD19Anime/ComfyUI-PD19Anime-Nodes.git``
+```git clone --recursive https://github.com/PD19Anime/ComfyUI-PD19Anime-Nodes.git```
 
 
 ## Features
@@ -22,35 +22,34 @@ Clone this repo
 Advanced Prompt & Image Loader (Multiple) provides the following features:
 Input Parameters
 
-    path:
+path:
     The absolute or relative path to the folder containing your images.
 
-    pattern:
+pattern:
     Filename filter (e.g., *.png, prefix_*.jpg). * matches all files.
 
-    mode:
+mode:
+single_image: Loads the image at the specified index.
 
-        single_image: Loads the image at the specified index.
+incremental_image: Loads the next image in the folder on each run.
 
-        incremental_image: Loads the next image in the folder on each run.
+random: Loads a random image based on the provided seed.
 
-        random: Loads a random image based on the provided seed.
+index / seed:
+Numeric parameter for the corresponding mode.
 
-    index / seed:
-    Numeric parameter for the corresponding mode.
+swap_prompts:
+A toggle switch. If your positive and negative prompts are swapped, enable this to correct the output.
 
-    swap_prompts:
-    A toggle switch. If your positive and negative prompts are swapped, enable this to correct the output.
+**Output Parameters**
 
-Output Parameters
-
-    positive_prompt:
+positive_prompt:
     The positive prompt read from the image metadata.
 
-    negative_prompt:
+negative_prompt:
     The negative prompt read from the image metadata.
 
-    image:
+image:
     The image data itself.
 
 
