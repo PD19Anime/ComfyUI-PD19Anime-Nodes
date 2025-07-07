@@ -8,6 +8,10 @@ In addition to high-resolution upscaling, this node can be flexibly integrated i
 This node combines the functionality of the Load Image Batch node from the was-node-suit package and parts of the SD Prompt Reader from the comfyui-prompt-reader-node package. The original MIT licenses have been incorporated into this project's LICENSE file.
 
 
+![CleanShot 2025-07-07 at 19 28 50@2x](https://github.com/user-attachments/assets/c4b17582-7f5e-4c4e-aabf-4c12d5dcb07d)
+
+
+
 Features
 
 Advanced Prompt & Image Loader (Multiple) provides the following features:
