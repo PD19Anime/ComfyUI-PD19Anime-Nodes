@@ -14,7 +14,7 @@ Install
 
 cd to the custom_node folder
 Clone this repo
-`git clone --recursive https://github.com/receyuki/comfyui-prompt-reader-node.git`
+```git clone --recursive https://github.com/PD19Anime/ComfyUI-PD19Anime-Nodes.git```
 
 
 Features
