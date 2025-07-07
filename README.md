@@ -23,6 +23,8 @@ Clone this repo
 
 Advanced Prompt & Image Loader (Multiple) provides the following features:
 
+
+
 **Input Parameters**
 
 path: 
@@ -43,6 +45,7 @@ index / seed:
 
 swap_prompts:
 - A toggle switch. If your positive and negative prompts are swapped, enable this to correct the output.
+
 
 
 **Output Parameters**
