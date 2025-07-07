@@ -10,6 +10,11 @@ This node combines the functionality of the Load Image Batch node from the was-n
 
 ![CleanShot 2025-07-07 at 19 28 50@2x](https://github.com/user-attachments/assets/c4b17582-7f5e-4c4e-aabf-4c12d5dcb07d)
 
+Install
+
+cd to the custom_node folder
+Clone this repo
+`git clone --recursive https://github.com/receyuki/comfyui-prompt-reader-node.git`
 
 
 Features
