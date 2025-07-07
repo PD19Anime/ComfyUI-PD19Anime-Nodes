@@ -48,6 +48,20 @@ Output Parameters
     image:
     The image data itself.
 
+
+How to Use
+
+    1.Set the path to the image folder.
+
+    2.Check the number of images in the folder and adjust the Batch Count value in ComfyUI to match the number of images.
+
+    3.Configure the loading mode and other parameters as needed.
+
+    4.Start the workflow.
+
+![CleanShot 2025-07-07 at 23 42 04@2x](https://github.com/user-attachments/assets/10211f62-4cb3-4673-bade-f9da96789d16)
+
+
 Notes
 
   This node may not be fully compatible with all complex workflows that use large numbers of custom nodes. If your images were generated using many custom nodes, pipe-type nodes, or third-party Ksampler nodes, it may not correctly read prompts or may swap positive and negative prompts (which can be corrected with the swap_prompts option).
