@@ -54,7 +54,8 @@ Output Parameters
     The image data itself.
 
 
-How to Use
+
+## How to Use
 
     1.Set the path to the image folder.
 
@@ -67,11 +68,8 @@ How to Use
 ![CleanShot 2025-07-07 at 23 42 04@2x](https://github.com/user-attachments/assets/10211f62-4cb3-4673-bade-f9da96789d16)
 
 
-Notes
+## Notes
 
   This node may not be fully compatible with all complex workflows that use large numbers of custom nodes. If your images were generated using many custom nodes, pipe-type nodes, or third-party Ksampler nodes, it may not correctly read prompts or may swap positive and negative prompts (which can be corrected with the swap_prompts option).
 
 
-Usage Suggestions
-
-Simply add this node to your workflow, configure the folder path and batch processing rules, and it will automatically use the prompt from each image for your operations, greatly reducing repetitive manual work. Feel free to expand or integrate it with other automation processes as needed!
