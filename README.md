@@ -49,7 +49,7 @@ Method 1: ComfyUI Manager (Under review, please use git clone first)
 
 Method 2: Manual Installation
 cd ComfyUI/custom_nodes
-git clone --recursive https://github.com/PD19Anime/ComfyUI-PD19Anime-Nodes.git
+```git clone --recursive https://github.com/PD19Anime/ComfyUI-PD19Anime-Nodes.git```
 Restart ComfyUI after installation to use.
 
 ## 📋 Usage Examples
