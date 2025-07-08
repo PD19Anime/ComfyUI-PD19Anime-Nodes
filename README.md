@@ -4,6 +4,7 @@ This node suite was developed based on my personal usage needs. Its core functio
 
 ## 🌟 Main Features
 📖 Advanced Prompt & Image Loader (Single)
+
 Intelligently extract prompt information from single images
 - Smart Extraction: Automatically reads positive and negative prompts from PNG metadata
 - Image Output: Like the official load image node, can pass loaded images to other nodes for processing
@@ -11,6 +12,7 @@ Intelligently extract prompt information from single images
 - Prompt Swap: This switch can swap the extracted positive and negative positions
 
 📚 Advanced Prompt & Image Loader (Multiple)
+
 Batch image processing and prompt extraction
 - Batch Processing: Supports directory-level batch image loading
 - Multiple Modes:
@@ -20,6 +22,7 @@ Batch image processing and prompt extraction
 - Flexible Filtering: Supports glob pattern file filtering
 
 🎨 Advanced Empty Latent Image
+
 Empty latent image generator with preset dimensions
 - Common Presets:
   - Portrait (832x1216) - Vertical
@@ -31,6 +34,7 @@ Empty latent image generator with preset dimensions
 - Multiple Outputs: Simultaneously outputs latent, width, height values
 
 💾 Advanced Prompt Saver
+
 Prompt saving and management tool
 - Auto Save: Saves positive and negative prompts as formatted txt files
 - Smart Naming: Supports custom filename prefix or automatic timestamp naming
