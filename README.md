@@ -1,7 +1,8 @@
 ## ⏺ PD19Anime-Nodes
 A powerful ComfyUI custom node suite designed for loading image original prompts and enhancing efficiency. Provides intelligent image loading, prompt extraction, and saving functionality.
 This node suite was developed based on my personal usage needs. Its core function is batch loading image prompts for high-resolution upscaling of large quantities of images. More nodes may be developed in the future based on my own requirements.
-This node borrowed code from nodes in was-node-suit-comfyui and comfyui-prompt-reader-node.
+
+This node draws from code in the was-node-suit-comfyui and comfyui-prompt-reader-node nodes. The license includes their original MIT licenses.
 
 ![image](https://github.com/user-attachments/assets/fdbf0f1e-0e73-4c85-80e9-27c8279b9318)
 
