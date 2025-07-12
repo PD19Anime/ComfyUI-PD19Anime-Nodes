@@ -95,12 +95,23 @@ This node is used to replace the official Empty Latent Image node. You can use p
 ___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
+<img width="1632" height="1117" alt="image" src="https://github.com/user-attachments/assets/08aa7cf3-bb55-4267-b9ac-ad0150f066ac" />
+
+**Advanced Empty Noise**
+
+___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+<img width="2039" height="1236" alt="image" src="https://github.com/user-attachments/assets/19856a20-ae63-437f-b365-e4e84ae76054" />
+
+**Advanced Model Loader**
+
+___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
 ## ✨ What's New
-v1.2.2 (Latest)
-- ✨ Added Advanced Prompt Saver node
-- ✨ Added Advanced Empty Latent Image node
-- 🐛 Fixed positive/negative prompt order issue to some extent
-- ⚡ Optimized node user experience
+v1.2.3 (Latest)
+- ✨ Added Advanced Empty Noise
+- ✨ Added Advanced Model Loader
+
 
 ## 📄 License
 MIT License
